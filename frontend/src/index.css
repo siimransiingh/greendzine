@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #000;
+  overflow: visible;
+}
+
+.divCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginLogo {
+  flex-direction: column;
+  position: relative;
+  top: 160px;
+  mix-blend-mode: normal;
+  opacity: 1;
+}
+
+.loginLogo img {
+  width: 90px;
+  height: 90px;
+}
+
+.loginLogo p {
+  width: 146px;
+  height: 20px;
+  margin: 10px;
+  text-align: center;
+  font: normal normal normal 16px/21px Mulish;
+  letter-spacing: 0.02px;
+  color: #36A546CC;
+  border: #0000;
+  border-width: 1px;
+
+}
+
+.inputs {
+  flex-direction: column;
+  position: relative;
+  top: 200px;
+}
+
+.inputs input::placeholder {
+  padding: 25px 10px 25px 20px;
+  font-family: "Mulish", sans-serif;
+  color: #FFFDFD40;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.inputs input {
+  width: 238px;
+  height: 42px;
+  border: none;
+  background: #1F191966 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+  mix-blend-mode: normal;
+  opacity: 1;
+  border-radius: 25px;
+  margin-bottom: 25px;
+  color: white;
+  padding-left: 20px;
+}
+
+.Loginbutton {
+  margin-top: 20px;
+  position: relative;
+  top: 150px;
+  margin-top: 56px;
+  flex-direction: column;
+}
+
+.Loginbutton button {
+  width: 238px;
+  height: 42px;
+  background: transparent linear-gradient(180deg, #00FF2580 0%, #000000 100%, #36A54680 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: normal;
+  border: 2px solid #8CFF0026;
+  opacity: 1;
+  border-radius: 25px;
+  color: #ffffff;
+  font-family: "Mulish", sans-serif;
+  color: #FFFDFD40;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.Loginbutton p {
+  margin-top: 26px;
+  color: white;
+}
+
+.logo {
+  flex-direction: column;
+  position: relative;
+  top: 50px;
+  mix-blend-mode: normal;
+  opacity: 1;
+}
+
+.logo img {
+  width: 90px;
+  height: 90px;
+}
+
+.serviceLogo {
+  display: flex;
+  position: relative;
+  top: 20px;
+  left: 1400px;
+  mix-blend-mode: normal;
+  opacity: 1;
+}
+
+.serviceLogo img {
+  width: 90px;
+  height: 90px;
+}
+.titleBox {
+  width: 370px;
+  text-align: center;
+  height: 40px;
+  border-radius: 25px;
+  background-color: #1a2c2cbd;
+  position: relative;
+  top: 65px;
+  color: #ffffffb3;
+  font-size: 18px;
+  font-family: "Source Sans 3", sans-serif;
+}
+.dashboardBox {
+  width: 300px;
+  height: 200px;
+  background: #5E5E5E82 0% 0% no-repeat padding-box;
+  opacity: 0.7;
+  margin: 30px 30px 30px 30px;
+  padding: 100px 40px 90px 30px;
+  position: relative;
+  top: 20px;
+  border-radius: 25px 25px 25px 25px;
+}
+
+.box {
+display: flex;
+flex-direction: column;
+
+}
+table,
+td {
+  text-align: left;
+  color: white;
+
+}
+
+td:nth-child(2) {
+  color: #36A546;
+  font-size: 17px;
+  position: relative;
+  left: 25px;
+  bottom: 5px;
+}
+
+table {
+
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+.greenBar {
+  margin-top: 5px;
+  position: relative;
+  right: 10px;
+  height: 11px;
+  border-radius: 35px;
+  background: #4bc95e80 0% 0% no-repeat padding-box;
+  mix-blend-mode: normal;
+  border: 1px solid #48ff63;
+  opacity: 1;
+}
+
+.navBox {
+  height: 70px;
+  width: 100vw;
+  text-align: center;
+  position: fixed;
+  bottom: -20px;
+  border-radius: 25px 25px 25px 25px;
+  font-family: "Source Sans 3", sans-serif;
+  background: transparent linear-gradient(262deg, #0F2323 0%, #0F2323 40%) 0% 0% no-repeat padding-box;
+  box-shadow: inset 8px 4px 4px #00000040;
+  mix-blend-mode: normal;
+  border: 1px solid #0F2323;
+  opacity: 1;
+}
+
+.icon{
+font-size: 30px;
+color: white;
+margin-left: 400px;
+margin-right: 400px;
+}
+
+.navBox button:hover {
+  background: #38383880;
+  mix-blend-mode: normal;
+  border: 1px solid #000000;
+  opacity: 0.3;
+  backdrop-filter: blur(5px);
+}
+
+.card {
+  color: white;
+  border-radius: 25px;
+  height: auto;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  font-family: "Mulish", sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 19px;
+  background: #5E5E5E82 0% 0% no-repeat padding-box;
+  opacity: 0.7;
+  padding: 50px;
+  margin: 20px;
+  position: relative;
+  top: 100px;
+}
+
+.card p {
+padding-bottom: 35px;
+position: relative;
+right: 20px;
+}
+.orange-p {
+  color: orange;
+}
+
+.green-p {
+  color: green;
+}
+
+
+.employee-list {
+  display: flex;
+  position: relative;
+  top: 90px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.searchBar{
+  position: relative; 
+  top: 100px;
+
+}
+
+.searchBar button, input { 
+  background: #5E5E5E82 0% 0% no-repeat padding-box;
+box-shadow: inset 0px 4px 0px #00000040;
+mix-blend-mode: normal;
+border: 1px solid #595959;
+opacity: 0.4;
+}
+.searchBar  input{
+  width: 250px;
+  height: 55px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 25px 0 0 25px ;
+  border-left: none;
+  color: white;
+}
+.searchBar button{
+  font-size: 20px;
+  height: 55px;
+  width: 55px;
+  border-radius: 0 25px 25px 0 ;
+  border-left: none;
+  color: white;
+}
+@media (min-width: 390px) and (min-height: 834px) {
+  .divCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .loginLogo {
+    flex-direction: column;
+    position: relative;
+    top: 160px;
+    mix-blend-mode: normal;
+    opacity: 1;
+  }
+
+  .loginLogo img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .loginLogo p {
+    width: 146px;
+    height: 20px;
+    margin: 10px;
+    text-align: center;
+    font: normal normal normal 16px/21px Mulish;
+    letter-spacing: 0.02px;
+    color: #36A546CC;
+    border: #0000;
+    border-width: 1px;
+
+  }
+
+  .inputs {
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+  }
+
+  .inputs input::placeholder {
+    padding: 25px 10px 25px 20px;
+    font-family: "Mulish", sans-serif;
+    color: #FFFDFD40;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .inputs input {
+    width: 238px;
+    height: 42px;
+    border: none;
+    background: #1F191966 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+    mix-blend-mode: normal;
+    opacity: 1;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    color: white;
+    padding-left: 20px;
+  }
+
+  .Loginbutton {
+    margin-top: 20px;
+    position: relative;
+    top: 150px;
+    margin-top: 56px;
+    flex-direction: column;
+  }
+
+  .Loginbutton button {
+    width: 238px;
+    height: 42px;
+    background: transparent linear-gradient(180deg, #00FF2580 0%, #000000 100%, #36A54680 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border: 2px solid #8CFF0026;
+    opacity: 1;
+    border-radius: 25px;
+    color: #ffffff;
+    font-family: "Mulish", sans-serif;
+    color: #FFFDFD40;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .Loginbutton p {
+    margin-top: 26px;
+    color: white;
+  }
+
+  .logo {
+    flex-direction: column;
+    position: relative;
+    top: 60px;
+    mix-blend-mode: normal;
+    opacity: 1;
+  }
+
+  .logo img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .serviceLogo {
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 350px;
+    mix-blend-mode: normal;
+    opacity: 1;
+  }
+
+  .serviceLogo img {
+    width: 90px;
+    height: 90px;
+  }
+  .titleBox {
+    width: 370px;
+    text-align: center;
+    height: 60px;
+    border-radius: 25px;
+    background-color: #1a2c2cbd;
+    
+    position: relative;
+    top: 80px;
+    color: #ffffffb3;
+    font-size: 18px;
+    font-family: "Source Sans 3", sans-serif;
+  }
+  .dashboardBox {
+    width: 300px;
+    height: 300px;
+    background: #5E5E5E82 0% 0% no-repeat padding-box;
+    opacity: 0.7;
+    margin: 30px 30px 30px 30px;
+    padding: 100px 40px 120px 30px;
+    position: relative;
+    top: 20px;
+    border-radius: 25px 25px 25px 25px;
+  }
+
+.box {
+  display: flex;
+  flex-direction: column;
+
+}
+  table,
+  td {
+    text-align: left;
+    color: white;
+
+  }
+
+  td:nth-child(2) {
+    color: #36A546;
+    font-size: 17px;
+    position: relative;
+    left: 25px;
+    bottom: 5px;
+  }
+
+  table {
+
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th,
+  td {
+    padding: 15px;
+  }
+
+  .greenBar {
+    margin-top: 5px;
+    position: relative;
+    right: 10px;
+    height: 11px;
+    border-radius: 35px;
+    background: #4bc95e80 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border: 1px solid #48ff63;
+    opacity: 1;
+  }
+
+  .navBox {
+    height: 70px;
+    width: 100vw;
+    text-align: center;
+    position: fixed;
+    bottom: -20px;
+    border-radius: 25px 25px 25px 25px;
+    font-family: "Source Sans 3", sans-serif;
+    background: transparent linear-gradient(262deg, #0F2323 0%, #0F2323 40%) 0% 0% no-repeat padding-box;
+    box-shadow: inset 8px 4px 4px #00000040;
+    mix-blend-mode: normal;
+    border: 1px solid #0F2323;
+    opacity: 1;
+  }
+
+.icon{
+  font-size: 30px;
+  color: white;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.navBox button:hover {
+    background: #38383880;
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+    opacity: 0.3;
+    backdrop-filter: blur(5px);
+  }
+
+  .card {
+    color: white;
+    border-radius: 25px;
+    height: auto;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    font-family: "Mulish", sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 19px;
+    background: #5E5E5E82 0% 0% no-repeat padding-box;
+    opacity: 0.7;
+    padding: 50px;
+    margin: 20px;
+    position: relative;
+    top: 100px;
+  }
+
+.card p {
+  padding-bottom: 35px;
+  position: relative;
+  right: 20px;
+}
+  .orange-p {
+    color: orange;
+  }
+
+  .green-p {
+    color: green;
+  }
+
+
+  .employee-list {
+    display: flex;
+    position: relative;
+    top: 190px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .searchBar{
+    position: relative; 
+    top: 100px;
+
+  }
+
+.searchBar button, input { 
+    background: #5E5E5E82 0% 0% no-repeat padding-box;
+box-shadow: inset 0px 4px 0px #00000040;
+mix-blend-mode: normal;
+border: 1px solid #595959;
+opacity: 0.4;
+  }
+  .searchBar  input{
+    width: 250px;
+    height: 55px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 25px 0 0 25px ;
+    border-left: none;
+    color: white;
+  }
+  .searchBar button{
+    font-size: 20px;
+    height: 55px;
+    width: 55px;
+    border-radius: 0 25px 25px 0 ;
+    border-left: none;
+    color: white;
+  }
+}
